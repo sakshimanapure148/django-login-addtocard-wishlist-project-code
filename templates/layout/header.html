@@ -1,11 +1,109 @@
+
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Titan Watches</title>
+
+    <link rel="stylesheet" href="{% static 'header.css' %}">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-    
+
+<!-- ===== TOP BAR ===== -->
+<div class="top-bar">
+
+    <p>FREE SHIPPING ON ORDERS ABOVE ₹999</p>
+
+    <div class="top-links">
+        <a href="#">Track Order</a>
+        <a href="#">Store Locator</a>
+        <a href="#">Help</a>
+    </div>
+
+</div>
+
+
+<!-- ===== MAIN HEADER ===== -->
+<header class="header">
+
+    <!-- Logo -->
+    <div class="logo">
+        <a href="#">TITAN</a>
+    </div>
+
+
+    <!-- Search -->
+    <div class="search">
+
+        <input
+            type="text"
+            placeholder="Search for watches, brands and more"
+        >
+
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+
+    <!-- Header Icons -->
+    <div class="header-icons">
+
+        <a href="#">
+            <i class="fa-regular fa-user"></i>
+            <span>Account</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-heart"></i>
+            <span>Wishlist</span>
+        </a>
+
+        <a href="#" class="cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>Bag</span>
+            <b>0</b>
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="navbar">
+
+    <ul>
+
+        <li><a href="#">Watches</a></li>
+
+        <li><a href="#">Men</a></li>
+
+        <li><a href="#">Women</a></li>
+
+        <li><a href="#">Smart Watches</a></li>
+
+        <li><a href="#">Premium</a></li>
+
+        <li><a href="#">Watch Straps</a></li>
+
+        <li><a href="#">New Arrivals</a></li>
+
+        <li><a href="#" class="sale">Sale</a></li>
+
+    </ul>
+
+</nav>
+
+
 </body>
 </html>
